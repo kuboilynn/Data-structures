@@ -8,7 +8,7 @@ MUKISA MARK 24/U/24248/PSA'''
 import heapq
 import copy
 
-# Adjacency matrix from the provided data
+# Adjacency matrix 
 distance = [
     [0, 12, 10, 0, 0, 0, 12],  # City 1 to others
     [12, 0, 8, 12, 0, 0, 0],   # City 2 to others
