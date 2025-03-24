@@ -16,3 +16,12 @@ distance = [
     [12,0,9,0,7,9,0] #city 7 to others
     
 ]
+cities = ["1", "2", "3", "4", "5", "6", "7"]
+# Function to print the graph in a readable way
+def print_graph(distance, cities):
+    print("   ", "  ".join(cities))
+    for i, row in enumerate(distance):
+        print(cities[i], row)
+
+# Display the adjacency matrix
+print_graph(distance, cities)
